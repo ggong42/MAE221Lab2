@@ -62,13 +62,13 @@ setLineOrder(axes1,fitLine1,plot1);
 showEquations(fittypesArray1,coeffs1,2,axes1);
 
 % Create ylabel
-ylabel('Temperature (°C)');
+ylabel('Temperature (Â°C)');
 
 % Create xlabel
 xlabel('Resistance (?k?)');
 
 % Create title
-title('Measured Temperature (?°C) vs. Calculated Resistance (k?) in Thermistor');
+title('Measured Temperature (?Â°C) vs. Calculated Resistance (k?) in Thermistor');
 
 box(axes1,'on');
 %-------------------------------------------------------------------------%
