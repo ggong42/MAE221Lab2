@@ -63,13 +63,13 @@ setLineOrder(axes1,fitLine1,plot1);
 showEquations(fittypesArray1,coeffs1,2,axes1);
 
 % Create ylabel
-ylabel('Temperature (°C)');
+ylabel('Temperature (Â°C)');
 
 % Create xlabel
 xlabel('Voltage (V)');
 
 % Create title
-title('Measured Temperature (°C) vs. Output Voltage (V) in Thermistor');
+title('Measured Temperature (Â°C) vs. Output Voltage (V) in Thermistor');
 
 box(axes1,'on');
 %-------------------------------------------------------------------------%
